@@ -7,6 +7,7 @@ import (
 )
 
 func attack(charName, charClass string) string {
+	fmt.Println("test")
 	if charClass == "warrior" {
 		return fmt.Sprintf("%s нанес урон противнику равный %d.", charName, 5+randint(3, 5))
 	}
